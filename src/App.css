@@ -164,3 +164,53 @@ portfolio {
   margin-left: 17cm;
   margin-top: 15px;
 }
+
+.abouthead {
+  font-size: 4rem;
+  margin-left: 12.5cm;
+}
+
+.aboutme,
+.hobbies {
+  font-size: 1.5rem;
+  width: 82%;
+  margin-left: 3cm;
+}
+
+.projectcard {
+  background-color: rgb(56, 55, 55);
+  width: 70%;
+  height: 330px;
+  margin-left: 5cm;
+  border-radius: 15px;
+  display: flex;
+
+}
+
+.innercard {
+  position: relative;
+  top: 18px;
+  width: 56%;
+  height: 90%;
+  background-color: antiquewhite;
+  left: 18px;
+  margin-right: 40px;
+  font-size: 1rem;
+}
+
+.eventimg {
+  background-color: azure;
+  width: 38%;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  margin-top: 18px;
+}
+
+.prohead {
+  font-size: 2.5rem;
+  margin-left: 11cm;
+  font-style: normal;
+  font-weight: 0;
+  font-family: 'Poppins', sans-serif;
+}

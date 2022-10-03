@@ -74,7 +74,14 @@ export function Contact() {
 export function Projects() {
   return (
     <>
-      <h2>Projects</h2>
+      {/* <h2 >Projects</h2> */}
+      <h2 className='prohead'>Have a look at my work</h2>
+      <div className='projectcard'>
+        <div className='innercard'>
+          <h2>EventFinder</h2>
+        </div>
+        <img className='eventimg' />
+      </div>
 
     </>
   )
@@ -83,8 +90,10 @@ export function Projects() {
 export function About() {
   return (
     <>
-      <h2>About</h2>
-
+      <h2 className='abouthead'>About Me</h2>
+      <p className='aboutme'>I'm Keerthana from AndhraPradesh, India. I've graduated in Computer Science & Engineering Major. Seeing code getting converted into things we use reguarly which makes our work easier , like Zomato,Amazon,BookMyShow..etc,has driven my interest towards web development .
+        And from then i started my web development  journey  and learnt  to build full stack applications , using MERN stack preferably .  </p>
+      <p className='hobbies'> I spend  my free time reading books, listening music , painting and spend with family and friends . </p>
     </>
   )
 }
