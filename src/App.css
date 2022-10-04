@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  /* background-color: black; */
+  background-color: black;
 }
 
 .header {
@@ -24,19 +24,23 @@ body {
 
 .logo {
   font-size: 30px;
+  color: rgb(81, 178, 216);
 }
 
 .list {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  width: 60%;
+  width: 75%;
+  margin: 0;
+  padding: 0;
 }
 
 .listitem {
-  color: white;
-  font-size: 25px;
-  padding: 10px 20px;
+  color: rgb(82, 206, 223);
+  font-size: 28px;
+  /* height: 30px; */
+  padding: 0px 20px;
   margin: 0 10px;
   cursor: pointer;
 }
@@ -46,8 +50,9 @@ body {
 }
 
 .highlightbtn {
-  background-color: white;
-  color: black;
+  background-color: rgb(81, 178, 216);
+  color: white;
+  border-radius: 10px;
 }
 
 @media (max-width: 500px) {
@@ -75,7 +80,7 @@ body {
   }
 
   .listitem {
-    color: white;
+    color: rgb(81, 182, 212);
     text-align: center;
     list-style: none;
     margin: 0;
@@ -117,6 +122,7 @@ a {
   text-decoration: none;
 }
 
+.listitem:hover {}
 
 portfolio {
   width: 300px;
@@ -127,9 +133,10 @@ portfolio {
 .hey {
   margin: 0;
   padding: 0;
+  color: white;
   margin-left: 16.5cm;
-  margin-top: 3cm;
-  font-size: 3rem;
+  margin-top: 2.5cm;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 100;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -138,11 +145,17 @@ portfolio {
 .name {
   margin: 0;
   padding: 0;
+  color: white;
   margin-left: 12.5cm;
   font-style: bold;
-  font-weight: 800;
-  font-size: 4.5rem;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
   letter-spacing: 1px;
+}
+
+span {
+  color: rgb(81, 178, 216);
 }
 
 .qualification {
@@ -150,35 +163,60 @@ portfolio {
   padding: 0;
   margin-left: 14cm;
   font-style: normal;
+  color: white;
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 1px;
 }
 
-.resume {
+.resume,
+a {
   border-radius: 5px;
+  color: rgb(81, 178, 216);
+  background-color: rgb(31, 30, 30);
   outline: none;
-  width: 3cm;
+  width: 3.3cm;
   height: 1cm;
-  font-size: 1.5rem;
-  margin-left: 17cm;
+  font-size: 1.2rem;
+  /* margin-left: 17cm; */
   margin-top: 15px;
 }
 
+.socialsctr {
+  display: flex;
+  margin-left: 13cm;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.4rem;
+}
+
 .abouthead {
-  font-size: 4rem;
-  margin-left: 12.5cm;
+  font-size: 3.5rem;
+  letter-spacing: .5px;
+  margin-left: 13cm;
+  font-family: Poppins, sans-serif;
+  color: rgb(81, 178, 216);
 }
 
 .aboutme,
 .hobbies {
-  font-size: 1.5rem;
-  width: 82%;
-  margin-left: 3cm;
+  font-size: 1.4rem;
+  width: 78%;
+  margin-left: 4cm;
+  letter-spacing: .5px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
 
 .projectcard {
-  background-color: rgb(46, 45, 45);
+  /* background-color: rgb(46, 45, 45); */
   width: 70%;
   height: 330px;
   margin-left: 5cm;
@@ -194,14 +232,16 @@ portfolio {
   height: 90%;
   /* background-color: antiquewhite; */
   left: 18px;
-  margin-right: 40px;
+  margin-right: 20px;
   font-size: 1rem;
 }
 
 .eventimg {
   background-color: azure;
-  width: 38%;
+  width: 40%;
   height: 90%;
+  border-radius: 10px;
+  object-fit: fit;
   margin: 0;
   padding: 0;
   margin-top: 18px;
@@ -212,6 +252,7 @@ portfolio {
   margin-left: 11cm;
   font-style: normal;
   font-weight: 0;
+  color: white;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -244,7 +285,7 @@ portfolio {
   font-size: 1.2rem;
   margin-left: 15px;
   padding-top: 3px;
-  color: rgb(72, 175, 216);
+  color: rgb(81, 178, 216);
   background-color: rgb(184, 208, 218, 0.4);
 }
 
@@ -299,9 +340,14 @@ portfolio {
 .email,
 .location {
   width: 8cm;
-  background-color: rgb(56, 56, 56);
+  background-color: rgb(27, 27, 27);
   color: white;
   border-radius: 10px;
+}
+
+.phone .email:hover {
+  transform: 10px;
+  transition: 10px 1sec;
 }
 
 .home,
@@ -310,7 +356,7 @@ portfolio {
   font-size: 2.5em;
   margin-left: 3.5cm;
   margin-top: 18px;
-  color: rgb(110, 193, 226);
+  color: rgb(81, 178, 216);
 }
 
 .loc,
@@ -321,6 +367,7 @@ portfolio {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
 .phnnum {
   margin-left: 2.2cm;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -328,10 +375,10 @@ portfolio {
 }
 
 .adrs {
-  margin-left: 1.7cm;
+  margin-left: 1.9cm;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: rgb(219, 219, 198);
-  letter-spacing: .5px;
+  letter-spacing: .8px;
 }
 
 .mailid {
@@ -346,12 +393,14 @@ portfolio {
   font-size: 3rem;
   margin-top: 2cm;
   margin-left: 14.4cm;
+  color: rgb(81, 178, 216);
   font-family: Poppins, sans-serif;
 }
 
 .head2 {
   font-size: 1.3rem;
   letter-spacing: .5px;
+  color: rgb(81, 178, 216);
   padding: 0;
   margin: 0;
   font-style: normal;
