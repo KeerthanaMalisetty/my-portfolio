@@ -28,7 +28,7 @@ function App() {
     <div className="App">
 
       <div className='header'>
-        <h3 className='logo'>My Portfolio</h3>
+        <h3 className='logo'>Keerthana Malisetty</h3>
         <ul className={ismobile ? "mobile" : "list"}
           onClick={
             () => setIsmobile(false)}
@@ -51,7 +51,7 @@ function App() {
 export function Home() {
   return (
     <>
-      <h2 className='hey'>Hey!</h2>
+      <h2 className='hey'>Hey there!</h2>
       <h1 className='name'>I'm <span>Keerthana</span></h1>
       <h3 className='qualification'>Full Stack Developer</h3>
       {/* <img src="src/port.jpg" className='portfolio' /> */}
