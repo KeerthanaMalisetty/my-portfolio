@@ -178,7 +178,7 @@ portfolio {
 }
 
 .projectcard {
-  background-color: rgb(56, 55, 55);
+  background-color: rgb(46, 45, 45);
   width: 70%;
   height: 330px;
   margin-left: 5cm;
@@ -192,7 +192,7 @@ portfolio {
   top: 18px;
   width: 56%;
   height: 90%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   left: 18px;
   margin-right: 40px;
   font-size: 1rem;
@@ -208,9 +208,157 @@ portfolio {
 }
 
 .prohead {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   margin-left: 11cm;
   font-style: normal;
   font-weight: 0;
   font-family: 'Poppins', sans-serif;
+}
+
+.desc {
+  font-size: 1.3rem;
+  margin: 0;
+  margin-top: 15px;
+  margin-left: 15px;
+  letter-spacing: .5px;
+  color: white;
+
+}
+
+.cardhead {
+  font-size: 2.3rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(68, 176, 219);
+  margin-left: 4cm;
+  margin-top: 10px;
+  letter-spacing: .5px;
+}
+
+.react {
+  width: fit-content;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 5px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  padding-top: 3px;
+  color: rgb(72, 175, 216);
+  background-color: rgb(184, 208, 218, 0.4);
+}
+
+.techs {
+  display: flex;
+  flex-direction: row;
+}
+
+.node {
+  width: 2.8cm;
+  height: 0.8cm;
+  padding: 2px 5px 0 10px;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  margin-top: 18px;
+  border-radius: 5px;
+  color: rgb(72, 175, 216);
+  background-color: rgba(247, 244, 244, 0.3);
+}
+
+.express {
+  width: 3.2cm;
+  height: 0.8cm;
+  padding: 2px 5px 0 10px;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  margin-top: 18px;
+  border-radius: 5px;
+  color: rgb(72, 175, 216);
+  background-color: rgba(247, 244, 244, 0.3);
+}
+
+.mongo {
+  width: 3.2cm;
+  height: 0.8cm;
+  padding: 2px 5px 0 5px;
+  font-size: 1.2rem;
+  margin-left: 15px;
+  margin-top: 18px;
+  border-radius: 5px;
+  color: rgb(72, 175, 216);
+  background-color: rgba(247, 244, 244, 0.3);
+}
+
+.contacts {
+  display: flex;
+  gap: 45px;
+  margin-left: 5cm;
+}
+
+.phone,
+.email,
+.location {
+  width: 8cm;
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border-radius: 10px;
+}
+
+.home,
+.mail,
+.mob {
+  font-size: 2.5em;
+  margin-left: 3.5cm;
+  margin-top: 18px;
+  color: rgb(110, 193, 226);
+}
+
+.loc,
+.phn,
+.eml {
+  margin-left: 3.3cm;
+  font-size: 1.2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.phnnum {
+  margin-left: 2.2cm;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(219, 219, 198);
+}
+
+.adrs {
+  margin-left: 1.7cm;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(219, 219, 198);
+  letter-spacing: .5px;
+}
+
+.mailid {
+  margin-left: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(219, 219, 198);
+}
+
+.head1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  margin-top: 2cm;
+  margin-left: 14.4cm;
+  font-family: Poppins, sans-serif;
+}
+
+.head2 {
+  font-size: 1.3rem;
+  letter-spacing: .5px;
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  margin-top: 10px;
+  font-family: Poppins, sans-serif;
+  font-weight: 100;
+  margin-bottom: 38px;
+  margin-left: 13.5cm;
+
 }

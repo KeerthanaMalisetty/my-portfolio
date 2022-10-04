@@ -65,8 +65,26 @@ export function Home() {
 export function Contact() {
   return (
     <>
-      <h2>Contact Me</h2>
-
+      <h1 className='head1'>Contact Me</h1>
+      <h2 className='head2'>Let's get in touch and work together  :)
+      </h2>
+      <div className='contacts'>
+        <div className='phone'>
+          <i class="fa-solid fa-phone mob"></i>
+          <p className='phn'>Phone</p>
+          <p className='phnnum'>(+91) 6281993136</p>
+        </div>
+        <div className='location'>
+          <i class="fa-sharp fa-solid fa-house home"></i>
+          <p className='loc'>Location</p>
+          <p className='adrs'>AndhraPradesh , India</p>
+        </div>
+        <div className='email'>
+          <i class="fa-solid fa-envelope mail"></i>
+          <p className='eml'>Email</p>
+          <p className='mailid'> keerthanamalisetty@gmail.com</p>
+        </div>
+      </div>
     </>
   )
 }
@@ -78,7 +96,14 @@ export function Projects() {
       <h2 className='prohead'>Have a look at my work</h2>
       <div className='projectcard'>
         <div className='innercard'>
-          <h2>EventFinder</h2>
+          <h2 className='cardhead'>EventFinder</h2>
+          <p className='desc'>EventFinder is a web app through which user can search the events easily using the filters for location and category , to  book the tickets Online for the  events happening at different places . It has features like login/sign with Auth,Admin .</p>
+          <div className='techs'>
+            <p className='react'> <i class="fa-brands fa-react"></i> React.Js</p>
+            <p className='node'> <i class="fa-brands fa-node-js"></i>Node.Js</p>
+            <p className='express'> <i class="fa-brands fa-node-js"></i>Express.Js</p>
+            <p className='mongo'><i class="fa-solid fa-database"></i> MongoDB</p>
+          </div>
         </div>
         <img className='eventimg' />
       </div>
@@ -97,8 +122,5 @@ export function About() {
     </>
   )
 }
-
-
-
 
 export default App;
