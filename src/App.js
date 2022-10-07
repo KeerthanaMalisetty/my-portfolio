@@ -58,7 +58,7 @@ export function Home() {
       <div className='socialsctr'>
         <button className='resume'><i class="fa-brands fa-github icon"></i><a href='https://github.com/KeerthanaMalisetty'>Github</a></button>
         <button className='resume'><i class="fa-brands fa-linkedin icon"></i> <a href='https://www.linkedin.com/in/keerthana-malisetty-ba609215b/'>Linkedin</a></button>
-        <button className='resume'><i class="fa-solid fa-file-lines icon"></i>Resume</button>
+        <button className='resume'><i class="fa-solid fa-file-lines icon"></i><a href='https://drive.google.com/file/d/1ykzcpyPRBD4fV9qobZ3DN9Z8RcsNJvuM/view'>Resume</a></button>
       </div>
 
 
@@ -102,7 +102,12 @@ export function Projects() {
         <img className='eventimg' src="./images/eventfinder.png" alt='' />
         <div className='innercard'>
           <h2 className='cardhead'>EventFinder</h2>
-          <p className='desc'>EventFinder is a web app through which user can search the events easily using the filters for location and category , to  book the tickets Online for the  events happening at different places . It has features like login/sign with Auth,Admin .</p>
+          <p className='desc'>EventFinder is a web
+            app through which user can search the events easily using the filters for location and category , to  book the tickets Online for the
+            events happening at different places .
+            It has features which include all the CRUD operations.
+            Ticket booking is authorised using Auth with login/signup and sends the mail to the user to confirm their booking.
+          </p>
           <div className='techs'>
             <p className='react'> <i class="fa-brands fa-react"></i> React.Js</p>
             <p className='node'> <i class="fa-brands fa-node-js"></i>Node.Js</p>
