@@ -123,7 +123,7 @@ a {
   text-decoration: none;
 }
 
-.listitem:hover {}
+
 
 portfolio {
   width: 300px;
@@ -217,8 +217,8 @@ a {
 }
 
 .projectcard {
-  /* background-color: rgb(46, 45, 45); */
-  width: 70%;
+  background-color: rgb(19, 19, 19);
+  width: 72%;
   height: 330px;
   margin-left: 5cm;
   border-radius: 15px;
@@ -226,13 +226,34 @@ a {
 
 }
 
+
+.code {
+  color: rgb(81, 178, 216);
+  background-color: none;
+  background: none;
+  width: 30px;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cardheader {
+  display: flex;
+  margin-top: 10px;
+}
+
 .innercard {
   position: relative;
   /* top: 18px; */
-  width: 56%;
+  width: 55%;
   height: 90%;
   /* background-color: antiquewhite; */
-  left: 18px;
+  left: 10px;
   margin-right: 20px;
   font-size: 1rem;
 }
@@ -244,6 +265,7 @@ a {
   border-radius: 10px;
   object-fit: fit;
   margin: 0;
+  margin-left: 10px;
   padding: 0;
   margin-top: 18px;
 }
@@ -251,6 +273,7 @@ a {
 .prohead {
   font-size: 2.8rem;
   margin-left: 11cm;
+  /* margin-right: auto; */
   font-style: normal;
   font-weight: 0;
   color: white;
@@ -258,9 +281,11 @@ a {
 }
 
 .desc {
-  font-size: 1.25rem;
+  font-size: 1.22rem;
+  width: 100%;
   margin: 0;
-  margin-top: 10px;
+  padding: 0;
+  margin-top: 5px;
   margin-left: 15px;
   letter-spacing: .5px;
   color: white;
@@ -271,6 +296,7 @@ a {
   font-size: 2.3rem;
   margin: 0;
   padding: 0;
+  margin-right: auto;
   color: rgb(68, 176, 219);
   margin-left: 0.4cm;
   margin-top: 5px;
@@ -283,9 +309,10 @@ a {
   padding-left: 10px;
   padding-right: 5px;
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
+  margin-top: 12px;
   margin-left: 15px;
-  padding-top: 3px;
+  padding-top: 0px;
   color: rgb(81, 178, 216);
   background-color: rgb(184, 208, 218, 0.4);
 }
@@ -293,15 +320,17 @@ a {
 .techs {
   display: flex;
   flex-direction: row;
+  margin: 0;
+  padding: 0;
 }
 
 .node {
   width: 2.8cm;
   height: 0.8cm;
   padding: 2px 5px 0 10px;
-  font-size: 1.2rem;
-  margin-left: 15px;
-  margin-top: 18px;
+  font-size: 1.15rem;
+  margin-left: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   color: rgb(72, 175, 216);
   background-color: rgba(247, 244, 244, 0.3);
@@ -311,9 +340,9 @@ a {
   width: 3.2cm;
   height: 0.8cm;
   padding: 2px 5px 0 10px;
-  font-size: 1.2rem;
-  margin-left: 15px;
-  margin-top: 18px;
+  font-size: 1.15rem;
+  margin-left: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   color: rgb(72, 175, 216);
   background-color: rgba(247, 244, 244, 0.3);
@@ -323,9 +352,9 @@ a {
   width: 3.2cm;
   height: 0.8cm;
   padding: 2px 5px 0 5px;
-  font-size: 1.2rem;
-  margin-left: 15px;
-  margin-top: 18px;
+  font-size: 1.15rem;
+  margin-left: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   color: rgb(72, 175, 216);
   background-color: rgba(247, 244, 244, 0.3);

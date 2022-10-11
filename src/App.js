@@ -101,12 +101,16 @@ export function Projects() {
       <div className='projectcard'>
         <img className='eventimg' src="./images/eventfinder.png" alt='' />
         <div className='innercard'>
-          <h2 className='cardhead'>EventFinder</h2>
+          <div className='cardheader'>
+            <h2 className='cardhead'>EventFinder</h2>
+            <a href='https://github.com/KeerthanaMalisetty' className='code'> <i class="fa-solid fa-code"></i></a>
+            <a href='https://eventfinder-mernapp.netlify.app/' className='code'><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
           <p className='desc'>EventFinder is a web
             app through which user can search the events easily using the filters for location and category , to  book the tickets Online for the
             events happening at different places .
             It has features which include all the CRUD operations.
-            Ticket booking is authorised using Auth with login/signup and sends the mail to the user to confirm their booking.
+            Ticket booking is authorised using Auth with login/signup and also sends a mail to the user to confirm their booking once it is done.
           </p>
           <div className='techs'>
             <p className='react'> <i class="fa-brands fa-react"></i> React.Js</p>
